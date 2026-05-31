@@ -49,7 +49,7 @@ nav a.nav-link:hover{opacity:1;}
 #home{
   min-height:100vh;
   padding:120px 3.5rem 5rem;
-  display:flex;flex-direction:column;justify-content:center;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;
   border-bottom:1px solid var(--border);
   position:relative;
 }
@@ -57,7 +57,7 @@ nav a.nav-link:hover{opacity:1;}
 .eyebrow{
   font-size:0.72rem;font-weight:500;letter-spacing:0.18em;
   text-transform:uppercase;color:var(--gray);margin-bottom:2.5rem;
-  display:flex;align-items:center;gap:1rem;
+  display:flex;align-items:center;justify-content:center;gap:1rem;
 }
 .eyebrow::after{content:'';display:block;width:48px;height:1px;background:var(--border);}
 
@@ -68,19 +68,17 @@ nav a.nav-link:hover{opacity:1;}
   letter-spacing:-0.03em;
   margin-bottom:0.1em;
 }
-.hero-name .amp{font-style:italic;font-weight:300;}
-.hero-name .frames{font-weight:300;font-style:italic;color:var(--gray);}
+.hero-name .amp{font-style:italic;font-weight:600;}
+.hero-name .frames{font-weight:600;font-style:normal;color:var(--black);}
 
 .hero-tagline{
   font-size:clamp(0.9rem,1.4vw,1.05rem);
   font-weight:300;color:var(--gray);
   max-width:420px;line-height:1.75;
   margin-top:2.5rem;margin-bottom:3.5rem;
-  border-left:1px solid var(--border);
-  padding-left:1.25rem;
 }
 
-.cta-row{display:flex;align-items:center;gap:2rem;}
+.cta-row{display:flex;align-items:center;justify-content:center;gap:2rem;}
 
 .cta-btn{
   display:inline-block;
